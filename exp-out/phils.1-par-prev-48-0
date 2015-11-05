@@ -1,0 +1,39 @@
+Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 48 workers.
+Lace startup, creating 48 worker threads with program stack 8388608 bytes.
+dve2lts-sym, 0.000: Exploration order is par-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening models/phils.1.dve
+dve2lts-sym, 0.403: Regroup specification: gs
+dve2lts-sym, 0.403: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 0.403: Regroup macro Cols: cs,cn
+dve2lts-sym, 0.403: Regroup Column Sort
+dve2lts-sym, 0.403: Regroup Column Nub
+dve2lts-sym, 0.403: Regroup macro Rows: rs,rn
+dve2lts-sym, 0.403: Regroup Row Sort
+dve2lts-sym, 0.403: Regroup Row Nub
+dve2lts-sym, 0.403: Regroup Column sWaps
+dve2lts-sym, 0.404: Regroup Row Sort
+dve2lts-sym, 0.404: Regrouping: 16->16 groups
+dve2lts-sym, 0.404: state vector length is 8; there are 16 groups and 20 guards
+dve2lts-sym, 0.404: Creating a multi-core ListDD domain.
+dve2lts-sym, 1.101: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 1.109: got initial state
+dve2lts-sym, 1.110: level 0 is finished
+dve2lts-sym, 1.115: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 1.189: level 1 is finished
+dve2lts-sym, 1.267: level 2 is finished
+dve2lts-sym, 1.359: level 3 is finished
+dve2lts-sym, 1.452: level 4 is finished
+dve2lts-sym, 1.537: level 5 is finished
+dve2lts-sym, 1.600: level 6 is finished
+dve2lts-sym, 1.656: level 7 is finished
+dve2lts-sym, 1.695: level 8 is finished
+dve2lts-sym, 1.725: level 9 is finished
+dve2lts-sym, 1.744: Exploration took 160 group checks and 160 next state calls
+dve2lts-sym, 1.744: reachability took 0.640 real 24.230 user 5.640 sys
+dve2lts-sym, 1.744: counting visited states...
+dve2lts-sym, 1.748: counting took 0.000 real 0.170 user 0.020 sys
+dve2lts-sym, 1.748: state space has 80 (~8.00e+01) states, 50 BDD nodes

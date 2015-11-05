@@ -1,0 +1,48 @@
+Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening models/blocks.2.dve
+dve2lts-sym, 0.594: Regroup specification: gs
+dve2lts-sym, 0.594: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 0.594: Regroup macro Cols: cs,cn
+dve2lts-sym, 0.594: Regroup Column Sort
+dve2lts-sym, 0.595: Regroup Column Nub
+dve2lts-sym, 0.595: Regroup macro Rows: rs,rn
+dve2lts-sym, 0.595: Regroup Row Sort
+dve2lts-sym, 0.595: Regroup Row Nub
+dve2lts-sym, 0.595: Regroup Column sWaps
+dve2lts-sym, 0.595: Regroup Row Sort
+dve2lts-sym, 0.595: Regrouping: 20->20 groups
+dve2lts-sym, 0.595: state vector length is 14; there are 20 groups and 25 guards
+dve2lts-sym, 0.595: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.847: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 0.857: got initial state
+dve2lts-sym, 0.857: level 0 is finished
+dve2lts-sym, 0.993: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 1.124: level 1 is finished
+dve2lts-sym, 1.601: level 2 is finished
+dve2lts-sym, 2.128: level 3 is finished
+dve2lts-sym, 2.840: level 4 is finished
+dve2lts-sym, 3.886: level 5 is finished
+dve2lts-sym, 5.029: level 6 is finished
+dve2lts-sym, 5.449: level 7 is finished
+dve2lts-sym, 5.603: level 8 is finished
+dve2lts-sym, 5.631: level 9 is finished
+dve2lts-sym, 5.651: level 10 is finished
+dve2lts-sym, 5.671: level 11 is finished
+dve2lts-sym, 5.704: level 12 is finished
+dve2lts-sym, 5.733: level 13 is finished
+dve2lts-sym, 5.773: level 14 is finished
+dve2lts-sym, 5.801: level 15 is finished
+dve2lts-sym, 5.826: level 16 is finished
+dve2lts-sym, 5.843: level 17 is finished
+dve2lts-sym, 5.852: level 18 is finished
+dve2lts-sym, 5.858: Exploration took 380 group checks and 380 next state calls
+dve2lts-sym, 5.858: reachability took 5.000 real 0.270 user 4.720 sys
+dve2lts-sym, 5.858: counting visited states...
+dve2lts-sym, 5.860: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 5.860: state space has 7057 (~7.06e+03) states, 2959 BDD nodes

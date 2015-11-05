@@ -1,0 +1,257 @@
+Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+dve2lts-sym, 0.000: Exploration order is bfs-prev
+dve2lts-sym, 0.000: Saturation strategy is none
+dve2lts-sym, 0.000: Guided search strategy is unguided
+dve2lts-sym, 0.000: Attractor strategy is default
+dve2lts-sym, 0.000: Precompiled divine module initialized
+dve2lts-sym, 0.000: opening models/train-gate.3.dve
+train-gate.3.dve.cpp: In function 'int get_action(void*, int, const state_struct_t*, void (*)(void*, transition_info_t*, state_struct_t*, int*), void*)':
+train-gate.3.dve.cpp:152:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 1);
+                   ^
+train-gate.3.dve.cpp:153:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:171:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 2);
+                   ^
+train-gate.3.dve.cpp:172:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:190:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 3);
+                   ^
+train-gate.3.dve.cpp:191:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:209:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 4);
+                   ^
+train-gate.3.dve.cpp:210:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:228:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 1);
+                   ^
+train-gate.3.dve.cpp:229:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:247:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 2);
+                   ^
+train-gate.3.dve.cpp:248:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:266:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 3);
+                   ^
+train-gate.3.dve.cpp:267:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:285:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 4);
+                   ^
+train-gate.3.dve.cpp:286:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:304:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 1);
+                   ^
+train-gate.3.dve.cpp:305:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:323:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 2);
+                   ^
+train-gate.3.dve.cpp:324:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:342:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 3);
+                   ^
+train-gate.3.dve.cpp:343:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:361:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = 4);
+                   ^
+train-gate.3.dve.cpp:362:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp:404:71: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).IntQueue.list[(*out).IntQueue.len.var].var = (*out).e.var);
+                                                                       ^
+train-gate.3.dve.cpp:421:71: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).IntQueue.list[(*out).IntQueue.len.var].var = (*out).e.var);
+                                                                       ^
+train-gate.3.dve.cpp:438:19: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         ((*out).e.var = (*out).IntQueue.list[0].var);
+                   ^
+train-gate.3.dve.cpp:439:31: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                               ^
+train-gate.3.dve.cpp: In function 'int get_successor(void*, int, const state_struct_t*, void (*)(void*, transition_info_t*, state_struct_t*, int*), void*)':
+train-gate.3.dve.cpp:955:66: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_1.state.var == 1) )  &&  ( ((*in).e.var == 1) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                                                                  ^
+train-gate.3.dve.cpp:971:87: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_1.state.var == 3) )  &&  ( ((*in).x.var <= 10 && (*in).e.var == 1) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                                                       ^
+train-gate.3.dve.cpp:987:66: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_2.state.var == 1) )  &&  ( ((*in).e.var == 2) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                                                                  ^
+train-gate.3.dve.cpp:1003:87: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_2.state.var == 3) )  &&  ( ((*in).x.var <= 10 && (*in).e.var == 2) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                                                       ^
+train-gate.3.dve.cpp:1019:66: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_3.state.var == 1) )  &&  ( ((*in).e.var == 3) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                                                                  ^
+train-gate.3.dve.cpp:1035:87: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_3.state.var == 3) )  &&  ( ((*in).x.var <= 10 && (*in).e.var == 3) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                                                       ^
+train-gate.3.dve.cpp:1051:66: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_4.state.var == 1) )  &&  ( ((*in).e.var == 4) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                                                                  ^
+train-gate.3.dve.cpp:1067:87: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+         if (  ( ((*in).Train_4.state.var == 3) )  &&  ( ((*in).x.var <= 10 && (*in).e.var == 4) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                                                       ^
+train-gate.3.dve.cpp: In function 'int get_successors(void*, const state_struct_t*, void (*)(void*, transition_info_t*, state_struct_t*, int*), void*)':
+train-gate.3.dve.cpp:1196:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 1);
+                           ^
+train-gate.3.dve.cpp:1197:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1220:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 2);
+                           ^
+train-gate.3.dve.cpp:1221:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1244:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 3);
+                           ^
+train-gate.3.dve.cpp:1245:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1268:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 4);
+                           ^
+train-gate.3.dve.cpp:1269:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1295:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 1);
+                           ^
+train-gate.3.dve.cpp:1296:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1319:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 2);
+                           ^
+train-gate.3.dve.cpp:1320:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1343:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 3);
+                           ^
+train-gate.3.dve.cpp:1344:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1367:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 4);
+                           ^
+train-gate.3.dve.cpp:1368:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1391:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 1);
+                           ^
+train-gate.3.dve.cpp:1392:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1415:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 2);
+                           ^
+train-gate.3.dve.cpp:1416:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1439:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 3);
+                           ^
+train-gate.3.dve.cpp:1440:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1463:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = 4);
+                           ^
+train-gate.3.dve.cpp:1464:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1527:79: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).IntQueue.list[(*out).IntQueue.len.var].var = (*out).e.var);
+                                                                               ^
+train-gate.3.dve.cpp:1549:79: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).IntQueue.list[(*out).IntQueue.len.var].var = (*out).e.var);
+                                                                               ^
+train-gate.3.dve.cpp:1571:27: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 ((*out).e.var = (*out).IntQueue.list[0].var);
+                           ^
+train-gate.3.dve.cpp:1572:39: error: request for member 'var' in 'out->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+                 cpy[((int*)&((*out).e.var) - (int*)&(*out))] = 0;
+                                       ^
+train-gate.3.dve.cpp:1632:30: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).e.var == 1) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                              ^
+train-gate.3.dve.cpp:1677:51: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).x.var <= 10 && (*in).e.var == 1) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                   ^
+train-gate.3.dve.cpp:1725:30: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).e.var == 2) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                              ^
+train-gate.3.dve.cpp:1770:51: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).x.var <= 10 && (*in).e.var == 2) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                   ^
+train-gate.3.dve.cpp:1818:30: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).e.var == 3) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                              ^
+train-gate.3.dve.cpp:1863:51: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).x.var <= 10 && (*in).e.var == 3) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                   ^
+train-gate.3.dve.cpp:1911:30: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).e.var == 4) )  &&  ( ((*in).Gate.state.var == 8) ) )
+                              ^
+train-gate.3.dve.cpp:1956:51: error: request for member 'var' in 'in->state_struct_t::e', which is of non-class type 'const byte_t [5] {aka const ubyte_t [5]}'
+             if (  ( ((*in).x.var <= 10 && (*in).e.var == 4) )  &&  ( ((*in).Gate.state.var == 5) ) )
+                                                   ^
+train-gate.3.dve.cpp: In function 'int get_guard(void*, int, state_struct_t*)':
+train-gate.3.dve.cpp:2536:36: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         case 26: return (((*src).e.var == 1));
+                                    ^
+train-gate.3.dve.cpp:2545:36: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         case 35: return (((*src).e.var == 2));
+                                    ^
+train-gate.3.dve.cpp:2549:36: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         case 39: return (((*src).e.var == 3));
+                                    ^
+train-gate.3.dve.cpp:2553:36: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+         case 43: return (((*src).e.var == 4));
+                                    ^
+train-gate.3.dve.cpp: In function 'void get_guard_all(void*, state_struct_t*, int*)':
+train-gate.3.dve.cpp:2589:28: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+     guard[26] = (((*src).e.var == 1));
+                            ^
+train-gate.3.dve.cpp:2598:28: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+     guard[35] = (((*src).e.var == 2));
+                            ^
+train-gate.3.dve.cpp:2602:28: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+     guard[39] = (((*src).e.var == 3));
+                            ^
+train-gate.3.dve.cpp:2606:28: error: request for member 'var' in 'src->state_struct_t::e', which is of non-class type 'byte_t [5] {aka ubyte_t [5]}'
+     guard[43] = (((*src).e.var == 4));
+                            ^
+Error running external command: g++ -O2 -shared -fPIC  -o train-gate.3.dve2C train-gate.3.dve.cpp
+dve2lts-sym, 0.180, file ../../../src/pins2lts-sym/../pins-lib/dve-pins.c, line 200: assertion "ret == 0" failed: Command failed with exit code 256: divine compile --ltsmin '/home/dijkt/tacas2016/models/train-gate.3.dve'
+Please install the patched DiVinE 2.4 version from the LTSmin website:
+http://fmt.cs.utwente.nl/tools/ltsmin/#divine

@@ -1,44 +1,42 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
-Lace startup, creating 1 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/pouring.2.dve
-dve2lts-sym, 37.076: Regroup specification: gs
-dve2lts-sym, 37.077: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 37.077: Regroup macro Cols: cs,cn
-dve2lts-sym, 37.077: Regroup Column Sort
-dve2lts-sym, 37.077: Regroup Column Nub
-dve2lts-sym, 37.077: Regroup macro Rows: rs,rn
-dve2lts-sym, 37.077: Regroup Row Sort
-dve2lts-sym, 37.081: Regroup Row Nub
-dve2lts-sym, 37.139: Regroup Column sWaps
-dve2lts-sym, 37.139: Regroup Row Sort
-dve2lts-sym, 37.139: Regrouping: 1724->20 groups
-dve2lts-sym, 37.140: state vector length is 7; there are 20 groups and 51 guards
-dve2lts-sym, 37.140: Creating a multi-core ListDD domain.
-dve2lts-sym, 37.240: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 37.246: got initial state
-dve2lts-sym, 37.246: level 0 is finished
-dve2lts-sym, 37.249: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 37.434: level 1 is finished
-dve2lts-sym, 38.106: level 2 is finished
-dve2lts-sym, 39.775: level 3 is finished
-dve2lts-sym, 41.544: level 4 is finished
-dve2lts-sym, 41.801: level 5 is finished
-dve2lts-sym, 41.848: level 6 is finished
-dve2lts-sym, 41.946: level 7 is finished
-dve2lts-sym, 42.115: level 8 is finished
-dve2lts-sym, 42.363: level 9 is finished
-dve2lts-sym, 42.658: level 10 is finished
-dve2lts-sym, 42.924: level 11 is finished
-dve2lts-sym, 43.094: level 12 is finished
-dve2lts-sym, 43.153: level 13 is finished
-dve2lts-sym, 43.161: level 14 is finished
-dve2lts-sym, 43.161: Exploration took 300 group checks and 300 next state calls
-dve2lts-sym, 43.161: reachability took 5.920 real 1.380 user 4.530 sys
-dve2lts-sym, 43.161: counting visited states...
-dve2lts-sym, 43.161: counting took 0.000 real 0.000 user 0.000 sys
-dve2lts-sym, 43.161: state space has 51624 (~5.16e+04) states, 81 BDD nodes
+dve2lts-sym, 42.207: Regroup specification: gs
+dve2lts-sym, 42.208: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 42.208: Regroup macro Cols: cs,cn
+dve2lts-sym, 42.208: Regroup Column Sort
+dve2lts-sym, 42.208: Regroup Column Nub
+dve2lts-sym, 42.208: Regroup macro Rows: rs,rn
+dve2lts-sym, 42.208: Regroup Row Sort
+dve2lts-sym, 42.212: Regroup Row Nub
+dve2lts-sym, 42.269: Regroup Column sWaps
+dve2lts-sym, 42.270: Regroup Row Sort
+dve2lts-sym, 42.270: Regrouping: 1724->20 groups
+dve2lts-sym, 42.270: state vector length is 7; there are 20 groups and 51 guards
+dve2lts-sym, 42.270: Creating a multi-core ListDD domain.
+dve2lts-sym, 42.369: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 42.375: got initial state
+dve2lts-sym, 42.375: level 0 is finished
+dve2lts-sym, 42.378: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 42.528: level 1 is finished
+dve2lts-sym, 43.075: level 2 is finished
+dve2lts-sym, 44.382: level 3 is finished
+dve2lts-sym, 45.430: level 4 is finished
+dve2lts-sym, 45.566: level 5 is finished
+dve2lts-sym, 45.606: level 6 is finished
+dve2lts-sym, 45.685: level 7 is finished
+dve2lts-sym, 45.819: level 8 is finished
+dve2lts-sym, 46.014: level 9 is finished
+dve2lts-sym, 46.244: level 10 is finished
+dve2lts-sym, 46.453: level 11 is finished
+dve2lts-sym, 46.586: level 12 is finished
+dve2lts-sym, 46.632: level 13 is finished
+dve2lts-sym, 46.638: level 14 is finished
+dve2lts-sym, 46.638: Exploration took 300 group checks and 300 next state calls
+dve2lts-sym, 46.638: reachability took 4.260 real 1.120 user 3.150 sys
+dve2lts-sym, 46.638: counting visited states...
+dve2lts-sym, 46.638: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 46.638: state space has 51624 (~5.16e+04) states, 81 BDD nodes

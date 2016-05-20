@@ -1,52 +1,51 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
-Lace startup, creating 1 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/loyd.3.dve
-dve2lts-sym, 0.366: Regroup specification: gs
-dve2lts-sym, 0.366: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 0.366: Regroup macro Cols: cs,cn
-dve2lts-sym, 0.366: Regroup Column Sort
-dve2lts-sym, 0.366: Regroup Column Nub
-dve2lts-sym, 0.366: Regroup macro Rows: rs,rn
-dve2lts-sym, 0.366: Regroup Row Sort
-dve2lts-sym, 0.366: Regroup Row Nub
-dve2lts-sym, 0.366: Regroup Column sWaps
-dve2lts-sym, 0.366: Regroup Row Sort
-dve2lts-sym, 0.366: Regrouping: 5->3 groups
-dve2lts-sym, 0.366: state vector length is 16; there are 3 groups and 18 guards
-dve2lts-sym, 0.366: Creating a multi-core ListDD domain.
-dve2lts-sym, 0.475: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 0.489: got initial state
-dve2lts-sym, 0.489: level 0 is finished
-dve2lts-sym, 0.525: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 0.655: level 1 is finished
-dve2lts-sym, 0.941: level 2 is finished
-dve2lts-sym, 1.639: level 3 is finished
-dve2lts-sym, 2.473: level 4 is finished
-dve2lts-sym, 3.255: level 5 is finished
-dve2lts-sym, 4.214: level 6 is finished
-dve2lts-sym, 4.940: level 7 is finished
-dve2lts-sym, 5.206: level 8 is finished
-dve2lts-sym, 5.257: level 9 is finished
-dve2lts-sym, 5.288: level 10 is finished
-dve2lts-sym, 5.346: level 11 is finished
-dve2lts-sym, 5.448: level 12 is finished
-dve2lts-sym, 5.629: level 13 is finished
-dve2lts-sym, 5.950: level 14 is finished
-dve2lts-sym, 6.515: level 15 is finished
-dve2lts-sym, 7.505: level 16 is finished
-dve2lts-sym, 9.228: level 17 is finished
-dve2lts-sym, 12.261: level 18 is finished
-dve2lts-sym, 17.542: level 19 is finished
-dve2lts-sym, 27.117: level 20 is finished
-dve2lts-sym, 43.001: level 21 is finished
-dve2lts-sym, 72.478: level 22 is finished
-dve2lts-sym, 125.884: level 23 is finished
-dve2lts-sym, 205.795: level 24 is finished
-dve2lts-sym, 342.325: level 25 is finished
-dve2lts-sym, 546.524: level 26 is finished
-dve2lts-sym, 852.569: level 27 is finished
+dve2lts-sym, 0.380: Regroup specification: gs
+dve2lts-sym, 0.380: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 0.380: Regroup macro Cols: cs,cn
+dve2lts-sym, 0.380: Regroup Column Sort
+dve2lts-sym, 0.380: Regroup Column Nub
+dve2lts-sym, 0.380: Regroup macro Rows: rs,rn
+dve2lts-sym, 0.380: Regroup Row Sort
+dve2lts-sym, 0.380: Regroup Row Nub
+dve2lts-sym, 0.380: Regroup Column sWaps
+dve2lts-sym, 0.380: Regroup Row Sort
+dve2lts-sym, 0.380: Regrouping: 5->3 groups
+dve2lts-sym, 0.380: state vector length is 16; there are 3 groups and 18 guards
+dve2lts-sym, 0.380: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.488: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 0.500: got initial state
+dve2lts-sym, 0.500: level 0 is finished
+dve2lts-sym, 0.528: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 0.630: level 1 is finished
+dve2lts-sym, 0.849: level 2 is finished
+dve2lts-sym, 1.352: level 3 is finished
+dve2lts-sym, 1.977: level 4 is finished
+dve2lts-sym, 2.488: level 5 is finished
+dve2lts-sym, 2.997: level 6 is finished
+dve2lts-sym, 3.416: level 7 is finished
+dve2lts-sym, 3.701: level 8 is finished
+dve2lts-sym, 3.801: level 9 is finished
+dve2lts-sym, 3.830: level 10 is finished
+dve2lts-sym, 3.868: level 11 is finished
+dve2lts-sym, 3.935: level 12 is finished
+dve2lts-sym, 4.055: level 13 is finished
+dve2lts-sym, 4.262: level 14 is finished
+dve2lts-sym, 4.634: level 15 is finished
+dve2lts-sym, 5.278: level 16 is finished
+dve2lts-sym, 6.416: level 17 is finished
+dve2lts-sym, 8.366: level 18 is finished
+dve2lts-sym, 11.761: level 19 is finished
+dve2lts-sym, 17.495: level 20 is finished
+dve2lts-sym, 27.140: level 21 is finished
+dve2lts-sym, 43.444: level 22 is finished
+dve2lts-sym, 71.974: level 23 is finished
+dve2lts-sym, 128.077: level 24 is finished
+dve2lts-sym, 205.323: level 25 is finished
+dve2lts-sym, 331.831: level 26 is finished
+dve2lts-sym, 539.576: level 27 is finished
+dve2lts-sym, 831.333: level 28 is finished

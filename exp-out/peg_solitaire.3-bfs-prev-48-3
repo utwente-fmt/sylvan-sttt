@@ -1,34 +1,31 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 48 workers.
-Lace startup, creating 48 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/peg_solitaire.3.dve
-dve2lts-sym, 10.171: Regroup specification: gs
-dve2lts-sym, 10.171: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 10.171: Regroup macro Cols: cs,cn
-dve2lts-sym, 10.171: Regroup Column Sort
-dve2lts-sym, 10.172: Regroup Column Nub
-dve2lts-sym, 10.173: Regroup macro Rows: rs,rn
-dve2lts-sym, 10.173: Regroup Row Sort
-dve2lts-sym, 10.173: Regroup Row Nub
-dve2lts-sym, 10.174: Regroup Column sWaps
-dve2lts-sym, 10.174: Regroup Row Sort
-dve2lts-sym, 10.174: Regrouping: 240->1 groups
-dve2lts-sym, 10.175: state vector length is 51; there are 1 groups and 530 guards
-dve2lts-sym, 10.175: Creating a multi-core ListDD domain.
-dve2lts-sym, 10.938: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 10.974: got initial state
-dve2lts-sym, 10.974: level 0 is finished
-dve2lts-sym, 11.046: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 11.344: level 1 is finished
-dve2lts-sym, 11.986: level 2 is finished
-dve2lts-sym, 12.436: level 3 is finished
-dve2lts-sym, 12.493: level 4 is finished
-dve2lts-sym, 12.642: level 5 is finished
-dve2lts-sym, 13.954: level 6 is finished
-dve2lts-sym, 24.478: level 7 is finished
-dve2lts-sym, 96.459: level 8 is finished
-dve2lts-sym, 435.700: level 9 is finished
+dve2lts-sym, 9.947: Regroup specification: gs
+dve2lts-sym, 9.948: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 9.948: Regroup macro Cols: cs,cn
+dve2lts-sym, 9.948: Regroup Column Sort
+dve2lts-sym, 9.948: Regroup Column Nub
+dve2lts-sym, 9.949: Regroup macro Rows: rs,rn
+dve2lts-sym, 9.949: Regroup Row Sort
+dve2lts-sym, 9.949: Regroup Row Nub
+dve2lts-sym, 9.951: Regroup Column sWaps
+dve2lts-sym, 9.951: Regroup Row Sort
+dve2lts-sym, 9.951: Regrouping: 240->1 groups
+dve2lts-sym, 9.952: state vector length is 51; there are 1 groups and 530 guards
+dve2lts-sym, 9.952: Creating a multi-core ListDD domain.
+dve2lts-sym, 10.424: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 10.459: got initial state
+dve2lts-sym, 10.459: level 0 is finished
+dve2lts-sym, 10.515: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 10.801: level 1 is finished
+dve2lts-sym, 11.515: level 2 is finished
+dve2lts-sym, 11.791: level 3 is finished
+dve2lts-sym, 12.009: level 4 is finished
+dve2lts-sym, 13.099: level 5 is finished
+dve2lts-sym, 22.470: level 6 is finished
+dve2lts-sym, 112.171: level 7 is finished
+dve2lts-sym, 709.932: level 8 is finished

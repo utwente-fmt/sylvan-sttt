@@ -1,59 +1,57 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
-Lace startup, creating 1 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/protocols.1.dve
-dve2lts-sym, 0.401: Regroup specification: gs
-dve2lts-sym, 0.401: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 0.401: Regroup macro Cols: cs,cn
-dve2lts-sym, 0.401: Regroup Column Sort
-dve2lts-sym, 0.401: Regroup Column Nub
-dve2lts-sym, 0.401: Regroup macro Rows: rs,rn
-dve2lts-sym, 0.401: Regroup Row Sort
-dve2lts-sym, 0.401: Regroup Row Nub
-dve2lts-sym, 0.401: Regroup Column sWaps
-dve2lts-sym, 0.401: Regroup Row Sort
-dve2lts-sym, 0.401: Regrouping: 13->9 groups
-dve2lts-sym, 0.402: state vector length is 13; there are 9 groups and 18 guards
-dve2lts-sym, 0.402: Creating a multi-core ListDD domain.
-dve2lts-sym, 0.542: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 0.554: got initial state
-dve2lts-sym, 0.554: level 0 is finished
-dve2lts-sym, 0.603: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 0.692: level 1 is finished
-dve2lts-sym, 0.831: level 2 is finished
-dve2lts-sym, 0.987: level 3 is finished
-dve2lts-sym, 1.200: level 4 is finished
-dve2lts-sym, 1.510: level 5 is finished
-dve2lts-sym, 1.844: level 6 is finished
-dve2lts-sym, 2.247: level 7 is finished
-dve2lts-sym, 2.583: level 8 is finished
-dve2lts-sym, 2.875: level 9 is finished
-dve2lts-sym, 3.201: level 10 is finished
-dve2lts-sym, 3.520: level 11 is finished
-dve2lts-sym, 3.743: level 12 is finished
-dve2lts-sym, 3.931: level 13 is finished
-dve2lts-sym, 4.094: level 14 is finished
-dve2lts-sym, 4.208: level 15 is finished
-dve2lts-sym, 4.286: level 16 is finished
-dve2lts-sym, 4.337: level 17 is finished
-dve2lts-sym, 4.383: level 18 is finished
-dve2lts-sym, 4.418: level 19 is finished
-dve2lts-sym, 4.441: level 20 is finished
-dve2lts-sym, 4.470: level 21 is finished
-dve2lts-sym, 4.490: level 22 is finished
-dve2lts-sym, 4.505: level 23 is finished
-dve2lts-sym, 4.522: level 24 is finished
-dve2lts-sym, 4.545: level 25 is finished
-dve2lts-sym, 4.557: level 26 is finished
-dve2lts-sym, 4.566: level 27 is finished
-dve2lts-sym, 4.570: level 28 is finished
-dve2lts-sym, 4.579: level 29 is finished
-dve2lts-sym, 4.588: Exploration took 270 group checks and 270 next state calls
-dve2lts-sym, 4.588: reachability took 4.040 real 0.020 user 4.010 sys
-dve2lts-sym, 4.588: counting visited states...
-dve2lts-sym, 4.597: counting took 0.010 real 0.000 user 0.010 sys
-dve2lts-sym, 4.597: state space has 2430 (~2.43e+03) states, 62 BDD nodes
+dve2lts-sym, 0.435: Regroup specification: gs
+dve2lts-sym, 0.435: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 0.435: Regroup macro Cols: cs,cn
+dve2lts-sym, 0.435: Regroup Column Sort
+dve2lts-sym, 0.435: Regroup Column Nub
+dve2lts-sym, 0.435: Regroup macro Rows: rs,rn
+dve2lts-sym, 0.435: Regroup Row Sort
+dve2lts-sym, 0.435: Regroup Row Nub
+dve2lts-sym, 0.435: Regroup Column sWaps
+dve2lts-sym, 0.435: Regroup Row Sort
+dve2lts-sym, 0.435: Regrouping: 13->9 groups
+dve2lts-sym, 0.435: state vector length is 13; there are 9 groups and 18 guards
+dve2lts-sym, 0.435: Creating a multi-core ListDD domain.
+dve2lts-sym, 0.576: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 0.588: got initial state
+dve2lts-sym, 0.588: level 0 is finished
+dve2lts-sym, 0.626: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 0.698: level 1 is finished
+dve2lts-sym, 0.805: level 2 is finished
+dve2lts-sym, 0.921: level 3 is finished
+dve2lts-sym, 1.103: level 4 is finished
+dve2lts-sym, 1.350: level 5 is finished
+dve2lts-sym, 1.623: level 6 is finished
+dve2lts-sym, 1.965: level 7 is finished
+dve2lts-sym, 2.254: level 8 is finished
+dve2lts-sym, 2.478: level 9 is finished
+dve2lts-sym, 2.708: level 10 is finished
+dve2lts-sym, 2.891: level 11 is finished
+dve2lts-sym, 3.040: level 12 is finished
+dve2lts-sym, 3.155: level 13 is finished
+dve2lts-sym, 3.248: level 14 is finished
+dve2lts-sym, 3.320: level 15 is finished
+dve2lts-sym, 3.373: level 16 is finished
+dve2lts-sym, 3.399: level 17 is finished
+dve2lts-sym, 3.421: level 18 is finished
+dve2lts-sym, 3.435: level 19 is finished
+dve2lts-sym, 3.449: level 20 is finished
+dve2lts-sym, 3.457: level 21 is finished
+dve2lts-sym, 3.468: level 22 is finished
+dve2lts-sym, 3.478: level 23 is finished
+dve2lts-sym, 3.491: level 24 is finished
+dve2lts-sym, 3.497: level 25 is finished
+dve2lts-sym, 3.506: level 26 is finished
+dve2lts-sym, 3.513: level 27 is finished
+dve2lts-sym, 3.517: level 28 is finished
+dve2lts-sym, 3.521: level 29 is finished
+dve2lts-sym, 3.523: Exploration took 270 group checks and 270 next state calls
+dve2lts-sym, 3.523: reachability took 2.930 real 0.020 user 2.910 sys
+dve2lts-sym, 3.523: counting visited states...
+dve2lts-sym, 3.527: counting took 0.010 real 0.000 user 0.000 sys
+dve2lts-sym, 3.527: state space has 2430 (~2.43e+03) states, 62 BDD nodes

@@ -148,7 +148,7 @@ class ExperimentLTSmin(Experiment):
 
 
 class LTSminExperiments():
-    workers = [1,48]
+    workers = [1,8,48]
     #workers = [1,8,16,24,32,40,48]
     models = _m.models
 
@@ -159,7 +159,8 @@ class LTSminExperiments():
         for m,a in self.models:
             filename = "models/{}.dve".format(m)
             for w in self.workers:
-                getattr(self, 'pp_{}'.format(w))[m] = ExperimentLTSmin(name=m, order="par-prev", workers=w, model=filename)
+                # getattr(self, 'pp_{}'.format(w))[m] = ExperimentLTSmin(name=m, order="par-prev", workers=w, model=filename)
+                getattr(self, 'pp_{}'.format(w))[m] = ExperimentLTSmin(name=m, order="bfs-prev", workers=w, model=filename)
 
     def add_to_set(self, experiments):
         for w in self.workers:
@@ -212,20 +213,13 @@ class LTSminExperiments():
         for name in sorted(res.keys()):
             r = res[name]
             for w in self.workers:
-                out.write("{},par-prev,{},{:<.2f}\n".format(name, w, r['pp_{}'.format(w)]))
+                out.write("{},bfs-prev,{},{:<.2f}\n".format(name, w, r['pp_{}'.format(w)]))
 
 
-class LTSminExperiments2(LTSminExperiments):
-    workers = [1,8,16,24,32,40,48]
-    models = [(m,a) for m,a in _m.models if m in ("collision.5", "blocks.4", "exit.4", "lann.6", "lifts.8", "mcs.5", "telephony.5", "rether.6")]
-
- 
 if __name__ == "__main__":
     engine = ExperimentSet(outdir='exp-out', timeout=1200)
     experiments = LTSminExperiments()
     experiments.add_to_set(engine)
-    experiments2 = LTSminExperiments2()
-    experiments2.add_to_set(engine)
 
     if len(sys.argv) > 1:
         if sys.argv[1] == 'run':
@@ -233,10 +227,9 @@ if __name__ == "__main__":
         elif sys.argv[1] == 'report':
             n, no, results, timeouts = engine.get_results()
             experiments.report(results, timeouts)
-            experiments2.report(results, timeouts)
 
             with open('results.csv', 'w') as f:
                 experiments.report_csv(results, timeouts, f)
 
-            with open('results-speedup.csv', 'w') as f:
-                experiments2.report_csv(results, timeouts, f)
+            # with open('results-speedup.csv', 'w') as f:
+            #     experiments2.report_csv(results, timeouts, f)

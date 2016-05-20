@@ -1,44 +1,42 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 48 workers.
-Lace startup, creating 48 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/pouring.2.dve
-dve2lts-sym, 39.499: Regroup specification: gs
-dve2lts-sym, 39.499: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 39.499: Regroup macro Cols: cs,cn
-dve2lts-sym, 39.499: Regroup Column Sort
-dve2lts-sym, 39.499: Regroup Column Nub
-dve2lts-sym, 39.499: Regroup macro Rows: rs,rn
-dve2lts-sym, 39.499: Regroup Row Sort
-dve2lts-sym, 39.503: Regroup Row Nub
-dve2lts-sym, 39.561: Regroup Column sWaps
-dve2lts-sym, 39.561: Regroup Row Sort
-dve2lts-sym, 39.561: Regrouping: 1724->20 groups
-dve2lts-sym, 39.561: state vector length is 7; there are 20 groups and 51 guards
-dve2lts-sym, 39.562: Creating a multi-core ListDD domain.
-dve2lts-sym, 40.271: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 40.278: got initial state
-dve2lts-sym, 40.279: level 0 is finished
-dve2lts-sym, 40.282: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 40.491: level 1 is finished
-dve2lts-sym, 41.027: level 2 is finished
-dve2lts-sym, 42.002: level 3 is finished
-dve2lts-sym, 42.555: level 4 is finished
-dve2lts-sym, 42.634: level 5 is finished
-dve2lts-sym, 42.649: level 6 is finished
-dve2lts-sym, 42.664: level 7 is finished
-dve2lts-sym, 42.680: level 8 is finished
-dve2lts-sym, 42.716: level 9 is finished
-dve2lts-sym, 42.735: level 10 is finished
-dve2lts-sym, 42.754: level 11 is finished
-dve2lts-sym, 42.770: level 12 is finished
-dve2lts-sym, 42.780: level 13 is finished
-dve2lts-sym, 42.785: level 14 is finished
-dve2lts-sym, 42.787: Exploration took 300 group checks and 300 next state calls
-dve2lts-sym, 42.787: reachability took 2.510 real 115.570 user 4.770 sys
-dve2lts-sym, 42.788: counting visited states...
-dve2lts-sym, 42.788: counting took 0.000 real 0.010 user 0.000 sys
-dve2lts-sym, 42.788: state space has 51624 (~5.16e+04) states, 81 BDD nodes
+dve2lts-sym, 42.138: Regroup specification: gs
+dve2lts-sym, 42.138: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 42.138: Regroup macro Cols: cs,cn
+dve2lts-sym, 42.138: Regroup Column Sort
+dve2lts-sym, 42.138: Regroup Column Nub
+dve2lts-sym, 42.138: Regroup macro Rows: rs,rn
+dve2lts-sym, 42.138: Regroup Row Sort
+dve2lts-sym, 42.142: Regroup Row Nub
+dve2lts-sym, 42.200: Regroup Column sWaps
+dve2lts-sym, 42.200: Regroup Row Sort
+dve2lts-sym, 42.200: Regrouping: 1724->20 groups
+dve2lts-sym, 42.201: state vector length is 7; there are 20 groups and 51 guards
+dve2lts-sym, 42.201: Creating a multi-core ListDD domain.
+dve2lts-sym, 42.893: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 42.900: got initial state
+dve2lts-sym, 42.901: level 0 is finished
+dve2lts-sym, 42.903: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 43.095: level 1 is finished
+dve2lts-sym, 43.721: level 2 is finished
+dve2lts-sym, 45.043: level 3 is finished
+dve2lts-sym, 45.854: level 4 is finished
+dve2lts-sym, 46.084: level 5 is finished
+dve2lts-sym, 46.099: level 6 is finished
+dve2lts-sym, 46.115: level 7 is finished
+dve2lts-sym, 46.175: level 8 is finished
+dve2lts-sym, 46.193: level 9 is finished
+dve2lts-sym, 46.213: level 10 is finished
+dve2lts-sym, 46.232: level 11 is finished
+dve2lts-sym, 46.247: level 12 is finished
+dve2lts-sym, 46.257: level 13 is finished
+dve2lts-sym, 46.262: level 14 is finished
+dve2lts-sym, 46.263: Exploration took 300 group checks and 300 next state calls
+dve2lts-sym, 46.263: reachability took 3.370 real 153.760 user 7.160 sys
+dve2lts-sym, 46.263: counting visited states...
+dve2lts-sym, 46.264: counting took 0.000 real 0.010 user 0.000 sys
+dve2lts-sym, 46.264: state space has 51624 (~5.16e+04) states, 81 BDD nodes

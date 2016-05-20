@@ -1,45 +1,43 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
-Lace startup, creating 1 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/needham.1.dve
-dve2lts-sym, 1.214: Regroup specification: gs
-dve2lts-sym, 1.214: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 1.214: Regroup macro Cols: cs,cn
-dve2lts-sym, 1.214: Regroup Column Sort
-dve2lts-sym, 1.214: Regroup Column Nub
-dve2lts-sym, 1.214: Regroup macro Rows: rs,rn
-dve2lts-sym, 1.214: Regroup Row Sort
-dve2lts-sym, 1.214: Regroup Row Nub
-dve2lts-sym, 1.215: Regroup Column sWaps
-dve2lts-sym, 1.215: Regroup Row Sort
-dve2lts-sym, 1.216: Regrouping: 55->24 groups
-dve2lts-sym, 1.216: state vector length is 14; there are 24 groups and 44 guards
-dve2lts-sym, 1.216: Creating a multi-core ListDD domain.
-dve2lts-sym, 1.460: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 1.466: got initial state
-dve2lts-sym, 1.467: level 0 is finished
-dve2lts-sym, 1.525: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 1.847: level 1 is finished
-dve2lts-sym, 2.480: level 2 is finished
-dve2lts-sym, 3.488: level 3 is finished
-dve2lts-sym, 4.889: level 4 is finished
-dve2lts-sym, 5.811: level 5 is finished
-dve2lts-sym, 6.197: level 6 is finished
-dve2lts-sym, 6.343: level 7 is finished
-dve2lts-sym, 6.365: level 8 is finished
-dve2lts-sym, 6.373: level 9 is finished
-dve2lts-sym, 6.374: level 10 is finished
-dve2lts-sym, 6.378: level 11 is finished
-dve2lts-sym, 6.379: level 12 is finished
-dve2lts-sym, 6.382: level 13 is finished
-dve2lts-sym, 6.382: level 14 is finished
-dve2lts-sym, 6.382: level 15 is finished
-dve2lts-sym, 6.382: Exploration took 384 group checks and 384 next state calls
-dve2lts-sym, 6.382: reachability took 4.920 real 0.060 user 4.850 sys
-dve2lts-sym, 6.382: counting visited states...
-dve2lts-sym, 6.383: counting took 0.000 real 0.000 user 0.000 sys
-dve2lts-sym, 6.383: state space has 497 (~4.97e+02) states, 494 BDD nodes
+dve2lts-sym, 1.366: Regroup specification: gs
+dve2lts-sym, 1.366: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 1.367: Regroup macro Cols: cs,cn
+dve2lts-sym, 1.367: Regroup Column Sort
+dve2lts-sym, 1.367: Regroup Column Nub
+dve2lts-sym, 1.367: Regroup macro Rows: rs,rn
+dve2lts-sym, 1.367: Regroup Row Sort
+dve2lts-sym, 1.367: Regroup Row Nub
+dve2lts-sym, 1.367: Regroup Column sWaps
+dve2lts-sym, 1.368: Regroup Row Sort
+dve2lts-sym, 1.368: Regrouping: 55->24 groups
+dve2lts-sym, 1.368: state vector length is 14; there are 24 groups and 44 guards
+dve2lts-sym, 1.368: Creating a multi-core ListDD domain.
+dve2lts-sym, 1.603: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 1.610: got initial state
+dve2lts-sym, 1.610: level 0 is finished
+dve2lts-sym, 1.651: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 1.897: level 1 is finished
+dve2lts-sym, 2.356: level 2 is finished
+dve2lts-sym, 3.094: level 3 is finished
+dve2lts-sym, 3.877: level 4 is finished
+dve2lts-sym, 4.400: level 5 is finished
+dve2lts-sym, 4.578: level 6 is finished
+dve2lts-sym, 4.651: level 7 is finished
+dve2lts-sym, 4.666: level 8 is finished
+dve2lts-sym, 4.671: level 9 is finished
+dve2lts-sym, 4.674: level 10 is finished
+dve2lts-sym, 4.676: level 11 is finished
+dve2lts-sym, 4.677: level 12 is finished
+dve2lts-sym, 4.678: level 13 is finished
+dve2lts-sym, 4.678: level 14 is finished
+dve2lts-sym, 4.678: level 15 is finished
+dve2lts-sym, 4.678: Exploration took 384 group checks and 384 next state calls
+dve2lts-sym, 4.678: reachability took 3.070 real 0.030 user 3.030 sys
+dve2lts-sym, 4.678: counting visited states...
+dve2lts-sym, 4.678: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 4.678: state space has 497 (~4.97e+02) states, 494 BDD nodes

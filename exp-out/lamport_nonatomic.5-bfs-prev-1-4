@@ -1,109 +1,107 @@
-Initializing Lace, 8 nodes, 48 cores, 48 logical processors, 1 workers.
-Lace startup, creating 1 worker threads with program stack 8388608 bytes.
 dve2lts-sym, 0.000: Exploration order is bfs-prev
 dve2lts-sym, 0.000: Saturation strategy is none
 dve2lts-sym, 0.000: Guided search strategy is unguided
 dve2lts-sym, 0.000: Attractor strategy is default
 dve2lts-sym, 0.000: Precompiled divine module initialized
 dve2lts-sym, 0.000: opening models/lamport_nonatomic.5.dve
-dve2lts-sym, 9.797: Regroup specification: gs
-dve2lts-sym, 9.797: Regroup macro Group Safely: gc,gr,cw,rs
-dve2lts-sym, 9.797: Regroup macro Cols: cs,cn
-dve2lts-sym, 9.797: Regroup Column Sort
-dve2lts-sym, 9.797: Regroup Column Nub
-dve2lts-sym, 9.797: Regroup macro Rows: rs,rn
-dve2lts-sym, 9.797: Regroup Row Sort
-dve2lts-sym, 9.799: Regroup Row Nub
-dve2lts-sym, 9.803: Regroup Column sWaps
-dve2lts-sym, 9.852: Regroup Row Sort
-dve2lts-sym, 9.853: Regrouping: 365->135 groups
-dve2lts-sym, 9.853: state vector length is 30; there are 135 groups and 110 guards
-dve2lts-sym, 9.853: Creating a multi-core ListDD domain.
-dve2lts-sym, 10.825: Using GBgetTransitionsShort as next-state function
-dve2lts-sym, 10.826: got initial state
-dve2lts-sym, 10.826: level 0 is finished
-dve2lts-sym, 10.850: vrel_add_act not supported; falling back to vrel_add_cpy
-dve2lts-sym, 12.326: level 1 is finished
-dve2lts-sym, 14.335: level 2 is finished
-dve2lts-sym, 14.925: level 3 is finished
-dve2lts-sym, 14.969: level 4 is finished
-dve2lts-sym, 14.984: level 5 is finished
-dve2lts-sym, 15.003: level 6 is finished
-dve2lts-sym, 15.031: level 7 is finished
-dve2lts-sym, 15.069: level 8 is finished
-dve2lts-sym, 15.120: level 9 is finished
-dve2lts-sym, 15.189: level 10 is finished
-dve2lts-sym, 15.275: level 11 is finished
-dve2lts-sym, 15.379: level 12 is finished
-dve2lts-sym, 15.502: level 13 is finished
-dve2lts-sym, 15.653: level 14 is finished
-dve2lts-sym, 15.826: level 15 is finished
-dve2lts-sym, 16.006: level 16 is finished
-dve2lts-sym, 16.205: level 17 is finished
-dve2lts-sym, 16.411: level 18 is finished
-dve2lts-sym, 16.625: level 19 is finished
-dve2lts-sym, 16.849: level 20 is finished
-dve2lts-sym, 17.076: level 21 is finished
-dve2lts-sym, 17.305: level 22 is finished
-dve2lts-sym, 17.549: level 23 is finished
-dve2lts-sym, 17.797: level 24 is finished
-dve2lts-sym, 18.051: level 25 is finished
-dve2lts-sym, 18.307: level 26 is finished
-dve2lts-sym, 18.571: level 27 is finished
-dve2lts-sym, 18.836: level 28 is finished
-dve2lts-sym, 19.111: level 29 is finished
-dve2lts-sym, 19.394: level 30 is finished
-dve2lts-sym, 19.683: level 31 is finished
-dve2lts-sym, 19.975: level 32 is finished
-dve2lts-sym, 20.272: level 33 is finished
-dve2lts-sym, 20.571: level 34 is finished
-dve2lts-sym, 20.871: level 35 is finished
-dve2lts-sym, 21.170: level 36 is finished
-dve2lts-sym, 21.468: level 37 is finished
-dve2lts-sym, 21.759: level 38 is finished
-dve2lts-sym, 22.046: level 39 is finished
-dve2lts-sym, 22.326: level 40 is finished
-dve2lts-sym, 22.600: level 41 is finished
-dve2lts-sym, 22.865: level 42 is finished
-dve2lts-sym, 23.120: level 43 is finished
-dve2lts-sym, 23.368: level 44 is finished
-dve2lts-sym, 23.604: level 45 is finished
-dve2lts-sym, 23.830: level 46 is finished
-dve2lts-sym, 24.043: level 47 is finished
-dve2lts-sym, 24.246: level 48 is finished
-dve2lts-sym, 24.437: level 49 is finished
-dve2lts-sym, 24.617: level 50 is finished
-dve2lts-sym, 24.785: level 51 is finished
-dve2lts-sym, 24.942: level 52 is finished
-dve2lts-sym, 25.088: level 53 is finished
-dve2lts-sym, 25.223: level 54 is finished
-dve2lts-sym, 25.347: level 55 is finished
-dve2lts-sym, 25.461: level 56 is finished
-dve2lts-sym, 25.568: level 57 is finished
-dve2lts-sym, 25.668: level 58 is finished
-dve2lts-sym, 25.758: level 59 is finished
-dve2lts-sym, 25.839: level 60 is finished
-dve2lts-sym, 25.911: level 61 is finished
-dve2lts-sym, 25.974: level 62 is finished
-dve2lts-sym, 26.031: level 63 is finished
-dve2lts-sym, 26.081: level 64 is finished
-dve2lts-sym, 26.125: level 65 is finished
-dve2lts-sym, 26.162: level 66 is finished
-dve2lts-sym, 26.195: level 67 is finished
-dve2lts-sym, 26.221: level 68 is finished
-dve2lts-sym, 26.240: level 69 is finished
-dve2lts-sym, 26.254: level 70 is finished
-dve2lts-sym, 26.264: level 71 is finished
-dve2lts-sym, 26.272: level 72 is finished
-dve2lts-sym, 26.279: level 73 is finished
-dve2lts-sym, 26.284: level 74 is finished
-dve2lts-sym, 26.289: level 75 is finished
-dve2lts-sym, 26.294: level 76 is finished
-dve2lts-sym, 26.297: level 77 is finished
-dve2lts-sym, 26.300: level 78 is finished
-dve2lts-sym, 26.302: level 79 is finished
-dve2lts-sym, 26.303: Exploration took 10800 group checks and 10800 next state calls
-dve2lts-sym, 26.303: reachability took 15.470 real 11.270 user 4.200 sys
-dve2lts-sym, 26.303: counting visited states...
-dve2lts-sym, 26.304: counting took 0.010 real 0.000 user 0.000 sys
-dve2lts-sym, 26.304: state space has 95118524 (~9.51e+07) states, 2396 BDD nodes
+dve2lts-sym, 15.786: Regroup specification: gs
+dve2lts-sym, 15.786: Regroup macro Group Safely: gc,gr,cw,rs
+dve2lts-sym, 15.786: Regroup macro Cols: cs,cn
+dve2lts-sym, 15.786: Regroup Column Sort
+dve2lts-sym, 15.786: Regroup Column Nub
+dve2lts-sym, 15.786: Regroup macro Rows: rs,rn
+dve2lts-sym, 15.786: Regroup Row Sort
+dve2lts-sym, 15.787: Regroup Row Nub
+dve2lts-sym, 15.791: Regroup Column sWaps
+dve2lts-sym, 15.841: Regroup Row Sort
+dve2lts-sym, 15.842: Regrouping: 365->135 groups
+dve2lts-sym, 15.842: state vector length is 30; there are 135 groups and 110 guards
+dve2lts-sym, 15.842: Creating a multi-core ListDD domain.
+dve2lts-sym, 16.784: Using GBgetTransitionsShort as next-state function
+dve2lts-sym, 16.784: got initial state
+dve2lts-sym, 16.785: level 0 is finished
+dve2lts-sym, 16.800: vrel_add_act not supported; falling back to vrel_add_cpy
+dve2lts-sym, 17.738: level 1 is finished
+dve2lts-sym, 18.735: level 2 is finished
+dve2lts-sym, 19.053: level 3 is finished
+dve2lts-sym, 19.079: level 4 is finished
+dve2lts-sym, 19.089: level 5 is finished
+dve2lts-sym, 19.103: level 6 is finished
+dve2lts-sym, 19.123: level 7 is finished
+dve2lts-sym, 19.151: level 8 is finished
+dve2lts-sym, 19.189: level 9 is finished
+dve2lts-sym, 19.240: level 10 is finished
+dve2lts-sym, 19.303: level 11 is finished
+dve2lts-sym, 19.380: level 12 is finished
+dve2lts-sym, 19.473: level 13 is finished
+dve2lts-sym, 19.587: level 14 is finished
+dve2lts-sym, 19.715: level 15 is finished
+dve2lts-sym, 19.852: level 16 is finished
+dve2lts-sym, 20.001: level 17 is finished
+dve2lts-sym, 20.156: level 18 is finished
+dve2lts-sym, 20.316: level 19 is finished
+dve2lts-sym, 20.484: level 20 is finished
+dve2lts-sym, 20.653: level 21 is finished
+dve2lts-sym, 20.822: level 22 is finished
+dve2lts-sym, 21.004: level 23 is finished
+dve2lts-sym, 21.189: level 24 is finished
+dve2lts-sym, 21.377: level 25 is finished
+dve2lts-sym, 21.567: level 26 is finished
+dve2lts-sym, 21.763: level 27 is finished
+dve2lts-sym, 21.960: level 28 is finished
+dve2lts-sym, 22.163: level 29 is finished
+dve2lts-sym, 22.371: level 30 is finished
+dve2lts-sym, 22.584: level 31 is finished
+dve2lts-sym, 22.800: level 32 is finished
+dve2lts-sym, 23.021: level 33 is finished
+dve2lts-sym, 23.242: level 34 is finished
+dve2lts-sym, 23.465: level 35 is finished
+dve2lts-sym, 23.686: level 36 is finished
+dve2lts-sym, 23.906: level 37 is finished
+dve2lts-sym, 24.123: level 38 is finished
+dve2lts-sym, 24.335: level 39 is finished
+dve2lts-sym, 24.543: level 40 is finished
+dve2lts-sym, 24.746: level 41 is finished
+dve2lts-sym, 24.942: level 42 is finished
+dve2lts-sym, 25.131: level 43 is finished
+dve2lts-sym, 25.314: level 44 is finished
+dve2lts-sym, 25.489: level 45 is finished
+dve2lts-sym, 25.656: level 46 is finished
+dve2lts-sym, 25.814: level 47 is finished
+dve2lts-sym, 25.964: level 48 is finished
+dve2lts-sym, 26.106: level 49 is finished
+dve2lts-sym, 26.239: level 50 is finished
+dve2lts-sym, 26.363: level 51 is finished
+dve2lts-sym, 26.479: level 52 is finished
+dve2lts-sym, 26.586: level 53 is finished
+dve2lts-sym, 26.686: level 54 is finished
+dve2lts-sym, 26.777: level 55 is finished
+dve2lts-sym, 26.862: level 56 is finished
+dve2lts-sym, 26.940: level 57 is finished
+dve2lts-sym, 27.014: level 58 is finished
+dve2lts-sym, 27.080: level 59 is finished
+dve2lts-sym, 27.139: level 60 is finished
+dve2lts-sym, 27.192: level 61 is finished
+dve2lts-sym, 27.239: level 62 is finished
+dve2lts-sym, 27.281: level 63 is finished
+dve2lts-sym, 27.318: level 64 is finished
+dve2lts-sym, 27.349: level 65 is finished
+dve2lts-sym, 27.377: level 66 is finished
+dve2lts-sym, 27.401: level 67 is finished
+dve2lts-sym, 27.421: level 68 is finished
+dve2lts-sym, 27.435: level 69 is finished
+dve2lts-sym, 27.446: level 70 is finished
+dve2lts-sym, 27.453: level 71 is finished
+dve2lts-sym, 27.459: level 72 is finished
+dve2lts-sym, 27.464: level 73 is finished
+dve2lts-sym, 27.468: level 74 is finished
+dve2lts-sym, 27.472: level 75 is finished
+dve2lts-sym, 27.475: level 76 is finished
+dve2lts-sym, 27.478: level 77 is finished
+dve2lts-sym, 27.480: level 78 is finished
+dve2lts-sym, 27.482: level 79 is finished
+dve2lts-sym, 27.482: Exploration took 10800 group checks and 10800 next state calls
+dve2lts-sym, 27.482: reachability took 10.700 real 8.420 user 2.270 sys
+dve2lts-sym, 27.482: counting visited states...
+dve2lts-sym, 27.483: counting took 0.000 real 0.000 user 0.000 sys
+dve2lts-sym, 27.483: state space has 95118524 (~9.51e+07) states, 2396 BDD nodes
